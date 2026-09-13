@@ -1,8 +1,14 @@
 # Closet Prayer Study
 
-Development version 0.1.0 for the future **study.closetprayer.com**.
+Development version 0.1.1 for the future **study.closetprayer.com**.
 
 A Scripture-led exploration tool and private chronological research notebook. The initial collection contains **21 connected explorations across seven topic areas**. It is a personal development prototype, not a production content release.
+
+## Update from 0.1.0
+
+Replace the project files with this version, then stop the running preview and rerun `npm run dev:mobile`. Keep using the same browser and address/port so your existing notebook remains available. Close all Study tabs and reopen after rebuilding if the offline worker still shows the earlier version. Do not clear site data.
+
+Changes: larger phone text, a title/logo home action that clears search and topic filters, an Explore button that returns from a study to its results and then home, fewer repeated storage notices, and a dedicated Prayer Journal card at the top of Settings.
 
 ## Try it on your computer or phone
 

@@ -26,7 +26,7 @@ const getData = p => p.evaluate(() => new Promise((resolve, reject) => {
   const r = indexedDB.open('closet-prayer-study', 1); r.onsuccess = () => { const q = r.result.transaction('state').objectStore('state').get('notebook'); q.onsuccess = () => resolve(q.result); q.onerror = reject; }; r.onerror = reject;
 }));
 const waitSaved = async p => {
-  await p.waitForFunction(() => document.querySelector('.save-indicator')?.textContent === 'Saved on this device');
+  await p.waitForFunction(() => document.querySelector('.save-indicator')?.textContent === 'Saved');
 };
 const say = text => console.log(text);
 try {

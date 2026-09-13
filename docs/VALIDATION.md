@@ -1,3 +1,7 @@
+# UI revision 0.1.1 — 2026-09-13
+
+Production build passed. Targeted Chromium checks passed at 344 and 390 pixels: enlarged phone typography, no horizontal overflow, Explore returning from study to results and then home, title resetting search/topic without reloading, an unfinished draft preserved through home navigation, and the prominent Prayer Journal link. Both themes were visually inspected. No storage schema or encryption changes were made. Physical Fold testing remains with the owner.
+
 # Validation — development version 0.1.0
 
 Checked 2026-09-12 against the built static application. Test notebooks contained synthetic data only.
